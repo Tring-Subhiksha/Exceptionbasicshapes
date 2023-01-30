@@ -32,7 +32,7 @@ class Shapes{
             }
             catch(InputMismatchException e)
             {
-                l.info("Exception raised");
+                l.info("Exception raised "+e);
                 System.exit(0);
             }
            

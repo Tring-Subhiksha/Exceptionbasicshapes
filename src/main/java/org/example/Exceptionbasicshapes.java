@@ -27,6 +27,7 @@ class Shapes{
             int a;
             try {
                 a = sc2.nextInt();
+                 l.info("Continue execution");
                 this.areashapes(a);
             }
             catch(InputMismatchException e)
@@ -34,7 +35,7 @@ class Shapes{
                 l.info("Exception raised");
                 System.exit(0);
             }
-            l.info("Continue execution");
+           
         }
         else if(ch==2){
             l.info("Enter your choice to perform Perimeter operation for the shapes?\n1.Perimeter for Rectangle\n2.Perimeter for Triangle\n3.Perimeter for Circle\n");
